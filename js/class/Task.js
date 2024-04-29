@@ -1,6 +1,6 @@
 class Task {
-    #id
-    #text
+    #id;
+    #text;
 
     constructor(id, text) {
         this.#id = id
