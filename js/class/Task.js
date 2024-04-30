@@ -4,8 +4,9 @@ class Task {
 
     constructor(id, text) {
         this.#id = id
-        this.#text = text 
+        this.#text = text
     }
+
     getId() {
         return this.#id
     }

@@ -1,7 +1,10 @@
-GET http://localhost:3001
+### Get tasks GET http://localhost:3001
 
-POST http://localhost:3001/new HTTP/1.1
-Content-Type: application/json
+### Add new task POST http://localhost:3001/new HTTP/1.1 Content-Type: application/json
+
 {
-    "description": "Test from REST Client"
+"description": "Test from REST Client 2"
+
 }
+
+### Delete a task DELETE http://localhost:3001/DELETE/2 HTTP/1.1
